@@ -3,7 +3,7 @@ Bức tranh lớn
 
 Hầu hết các ứng dụng tại EVNCPC đang chia sẻ dữ liệu theo mô hình sau:
 
-.. images:: images/present-cpc-shared-data.png
+.. image:: images/present-cpc-shared-data.png
 
 **Hiện trạng:**
 
@@ -26,7 +26,7 @@ Hầu hết các ứng dụng tại EVNCPC đang chia sẻ dữ liệu theo mô 
 **CPC-APIM có thể làm gì?**
 CPC-APIM được xây dựng để đáp ứng mục tiêu 02: 
 
-.. images:: images/how-cpc-apim-can-help.png
+.. image:: images/how-cpc-apim-can-help.png
 
 CPC-APIM gồm các tính năng chính như sau:
 
