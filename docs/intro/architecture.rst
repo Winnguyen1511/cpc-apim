@@ -2,7 +2,7 @@ Kiến trúc
 =========
 Kiến trúc chia sẻ API/WS qua CPC-APIM:
 
-..images:: images/cpc-apim-architecture.png
+.. images:: images/cpc-apim-architecture.png
 
 **Chia sẻ dữ liệu giữa các ứng dụng:**
 
