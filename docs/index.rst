@@ -27,12 +27,13 @@ CPC-APIM được xây dựng để:
 | **Vận hành hệ thống**
 | Hỗ trợ theo dõi, vận hành hệ thống API tập trung qua các báo cáo thời gian thực, lưu vết truy cập, …
 
-.. totree::
+.. toctree::
    :maxdepth: 3
    :hidden:
    :caption: Giới thiệu
+   
    intro/big_picture
    intro/architecture
-   intro/support
+   
    
 
