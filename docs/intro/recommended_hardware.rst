@@ -29,7 +29,8 @@ Server lưu trữ
 Hiệu năng của CPC-APIM sẽ được nâng cao bằng cách sử dụng SSD. Điều này giúp giảm thời gian random access và giảm delay khi 
 tăng throughput.
 
-**Network**
+Network
+-------
 
 Hầu hết để truy cập vào server CPC tại Data Center đều phải qua firewall và sử dụng VPN. Người dùng phải có tài khoản AD và được quyền VPN 
 vào hệ thống mạng. Các máy chủ cũng phải được mở kết nối với internet để download các packages.
