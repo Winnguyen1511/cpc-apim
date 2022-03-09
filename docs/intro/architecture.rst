@@ -1,5 +1,6 @@
 Kiến trúc
 =========
+
 Kiến trúc chia sẻ API/WS qua CPC-APIM:
 
 .. image:: images/cpc-apim-architecture.png

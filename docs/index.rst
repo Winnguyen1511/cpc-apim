@@ -34,6 +34,10 @@ CPC-APIM được xây dựng để:
    
    intro/big_picture
    intro/architecture
+   intro/components
+   intro/recommended_hardware
+   intro/recommended_os
+
    
    
 
