@@ -30,8 +30,7 @@ CPC-APIM được xây dựng để đáp ứng mục tiêu 02:
 
 CPC-APIM gồm các tính năng chính như sau:
 
-* API Gateway: Che giấu hệ thống với bên ngoài, việc chia sẻ sẽ gọn nhẹ hơn. API Gateway cũng giúp tích hợp API/WS đa nền tảng
-(API, WS, FTP, MQ, ...).
+* API Gateway: Che giấu hệ thống với bên ngoài, việc chia sẻ sẽ gọn nhẹ hơn. API Gateway cũng giúp tích hợp API/WS đa nền tảng (API, WS, FTP, MQ, ...).
 
 * Load balancing và cache các request.
 

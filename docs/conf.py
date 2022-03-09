@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'CPC-APIM'
+copyright = '2022, EVNCPC'
+author = 'KhoaNHD-CPCIT'
 
 release = '0.1'
 version = '0.1.0'
