@@ -1,3 +1,5 @@
+.. _recommended_hardware:
+
 Hạ tầng đề xuất
 ===============
 
@@ -28,6 +30,8 @@ Server lưu trữ
 
 Hiệu năng của CPC-APIM sẽ được nâng cao bằng cách sử dụng SSD. Điều này giúp giảm thời gian random access và giảm delay khi 
 tăng throughput.
+
+.. _recommended_hardware_network:
 
 Network
 -------

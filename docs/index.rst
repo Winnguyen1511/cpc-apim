@@ -38,6 +38,14 @@ CPC-APIM được xây dựng để:
    intro/recommended_hardware
    intro/recommended_os
 
+.. toctree::
+   :maxdepth: 3
+   :hidden:
+   :caption: Cài đặt
+
+   install/java
+   install/apim
+
    
    
 
