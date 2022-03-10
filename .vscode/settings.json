@@ -1,0 +1,5 @@
+{
+    "esbonio.server.enabled": true,
+    "restructuredtext.confPath": "${workspaceFolder}\\docs",
+    "esbonio.sphinx.confDir": "e:\\Projects\\CPC\\2022\\APIM\\ProgramsAndDocs\\cpc-apim\\docs"
+}
