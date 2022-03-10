@@ -99,7 +99,7 @@ Config APIM
     Cần phải :ref:`cài đặt server database<install_database>` MSSQL cho CPC-APIM trước khi thực hiện các bước tiếp theo.
 
 #. Tải thư viện MSSQL JDBC mới nhất, bỏ vào thư mục `<API-M_HOME>/repository/components/lib/`
-#. Tạo mới tài khoản MSSQL để cấu hình APIM, ví dụ tên user **wso2apim**, mật khấu **Evncpc@12345**
+#. Tạo mới tài khoản MSSQL để cấu hình APIM, ví dụ tên user **wso2apim**
 #. Tạo 2 database **WSO2AM_DB** và **WSO2SHARED_DB** trong mssql và cấu hình phân quyền đầy đủ
 #. Chạy các script tương ứng để khởi tạo data cho các database:
 
@@ -115,16 +115,16 @@ Config APIM
         [database.apim_db]
         type = "mssql"
         url = "jdbc:sqlserver://wso2.mssql.db:1433;databaseName=APIM_WSO2AM_DB;SendStringParametersAsUnicode=false;sslProtocol=TLSv1.2;encrypt=true;trustServerCertificate=true"
-        username = "wso2apim"
-        password = "Evncpc@12345"
+        username = "<username>"
+        password = "<password>"
         driver = "com.microsoft.sqlserver.jdbc.SQLServerDriver"
         validationQuery = "SELECT 1"
         
         [database.shared_db]
         type = "mssql"
         url = "jdbc:sqlserver://wso2.mssql.db:1433;databaseName=APIM_WSO2SHARED_DB;SendStringParametersAsUnicode=false;sslProtocol=TLSv1.2;encrypt=true;trustServerCertificate=true"
-        username = "wso2apim"
-        password = "Evncpc@12345"
+        username = "<username>"
+        password = "<passworkd>"
         driver = "com.microsoft.sqlserver.jdbc.SQLServerDriver"
         validationQuery = "SELECT 1"
 
@@ -134,6 +134,9 @@ Config APIM
 
 
 **Cấu hình domain**
+
+.. important::
+    Trước khi cấu hình domain, phải cài đặt :ref:`Gateway<install_gateway>` cho CPC-APIM.
 
 .. code-block:: bash
 
