@@ -37,7 +37,7 @@ Export environment variables
 .. code-block:: bash
 
     # Update the BASHRC file
-    export API_M_HOME=/opt/WSO2/wso2am-4.0.0
+    export API-M_HOME=/opt/WSO2/wso2am-4.0.0
 
 Config API-M as linux service
 -----------------------------
@@ -51,10 +51,6 @@ Tạo file `wso2apim.service` ở thư mục `/etc/systemd/system/`
 
 Thêm config vào file `wso2apim.service`
 
-.. important::
-    Các entry ``ExecStart``, ``ExecStop``, ``ExecRestart``, ``PIDFile`` phải dùng absolut path, 
-    lưu ý path `/opt/WSO2/wso2am-4.0.0` chính là ``${API_M_HOME}``
-
 .. code-block:: bash
 
     [Unit]
@@ -62,11 +58,10 @@ Thêm config vào file `wso2apim.service`
     After=network.target
     
     [Service]
-    Environment=JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64/
-    ExecStart=/opt/WSO2/wso2am-4.0.0/bin/api-manager.sh start
-    ExecStop=/opt/WSO2/wso2am-4.0.0/bin/api-manager.sh stop
-    ExecRestart=/opt/WSO2/wso2am-4.0.0/bin/api-manager.sh restart
-    PIDFile=/opt/WSO2/wso2am-4.0.0/wso2carbon.pid
+    ExecStart=${API-M_HOME}/bin/api-manager.sh start
+    ExecStop=${API-M_HOME}/bin/api-manager.sh stop
+    ExecRestart=${API-M_HOME}/bin/api-manager.sh restart
+    PIDFile=${API-M_HOME}/wso2carbon.pid
     User=root
     Group=root
     Type=forking
@@ -141,7 +136,6 @@ Config APIM
 **Cấu hình domain**
 
 .. important::
-    
     Trước khi cấu hình domain, phải cài đặt :ref:`Gateway<install_gateway>` cho CPC-APIM.
 
 .. code-block:: bash
