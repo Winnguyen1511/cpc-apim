@@ -103,17 +103,17 @@ Config APIM
 
     Cần phải :ref:`cài đặt server database<install_database>` MSSQL cho CPC-APIM trước khi thực hiện các bước tiếp theo.
 
-#. Tải thư viện MSSQL JDBC mới nhất, bỏ vào thư mục `<API-M_HOME>/repository/components/lib/`
+#. Tải thư viện MSSQL JDBC mới nhất, bỏ vào thư mục `<API_M_HOME>/repository/components/lib/`
 #. Tạo mới tài khoản MSSQL để cấu hình APIM, ví dụ tên user **wso2apim**
 #. Tạo 2 database **WSO2AM_DB** và **WSO2SHARED_DB** trong mssql và cấu hình phân quyền đầy đủ
 #. Chạy các script tương ứng để khởi tạo data cho các database:
 
-    #. WSO2_SHARED_DB : <API-M_HOME>/dbscripts/mssql.sql
-    #. WSO2AM_DB : <API-M_HOME>/dbscripts/apimgt/mssql.sql
+    #. WSO2_SHARED_DB : <API_M_HOME>/dbscripts/mssql.sql
+    #. WSO2AM_DB : <API_M_HOME>/dbscripts/apimgt/mssql.sql
     
 #. Cấu hình connection tới database:
 
-    Sửa file `<API-M_HOME>/repository/conf/deployment.toml`, thêm config connection như sau:
+    Sửa file `<API_M_HOME>/repository/conf/deployment.toml`, thêm config connection như sau:
 
     .. code-block:: bash
 
