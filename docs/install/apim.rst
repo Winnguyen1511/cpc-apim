@@ -108,8 +108,8 @@ Config APIM
 #. Tạo 2 database **WSO2AM_DB** và **WSO2SHARED_DB** trong mssql và cấu hình phân quyền đầy đủ
 #. Chạy các script tương ứng để khởi tạo data cho các database:
 
-    #. WSO2_SHARED_DB : <API_M_HOME>/dbscripts/mssql.sql
-    #. WSO2AM_DB : <API_M_HOME>/dbscripts/apimgt/mssql.sql
+    #. WSO2_SHARED_DB : `<API_M_HOME>/dbscripts/mssql.sql`
+    #. WSO2AM_DB : `<API_M_HOME>/dbscripts/apimgt/mssql.sql`
     
 #. Cấu hình connection tới database:
 
@@ -239,6 +239,8 @@ Cập nhật Nginx proxy
             error_log /var/log/nginx/gw/https/error.log;
     
     }
+
+Khởi động lại Nginx
 
 Cấu hình SSO với Identity Server
 --------------------------------
