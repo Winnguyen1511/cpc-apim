@@ -39,7 +39,7 @@ Export environment variables
     export IS_HOME=/opt/WSO2/wso2is-5.11.0
 
 Config IS as linux service
------------------------------
+--------------------------
 
 Tạo file `wso2is.service` ở thư mục `/etc/systemd/system/`
 
