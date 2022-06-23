@@ -46,6 +46,8 @@ CPC-APIM được xây dựng để:
    install/java
    install/apim
    install/is
+   install/mi
+   install/elk
 
    
    
